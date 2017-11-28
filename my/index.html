@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>OPPO 官网 </title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/docs.min.js"></script>
+</head>
+<style type="text/css">
+	.error {
+			font-size: 12px;
+			color: red;
+			font-weight: 600;
+			display: none;
+		}
+</style>
+
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top navs-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">OPPO</a>
+	    </div>
+	    <div class="collapse navbar-collapse" >
+    		<ul class="nav navbar-nav navbar-right">
+		        <li class="li-login">
+		        	<a href="#" data-toggle="modal" data-target=".login">登录</a>
+					<div class="modal fade login" role="dialog" aria-labelledby="mySmallModalLabel">
+						<div class="modal-dialog modal-sm" role="document">
+						    <div class="modal-content"> 
+								<div class="modal-header">
+									<span class="close" data-dismiss='modal'>&times;</span>
+									<p class="">
+									<a href="">登录</a>/
+									<a href="">注册</a>
+									</p>
+									<p class="text-center" style="font-weight: bold; font-size: 25px; color: #009B72;">OPPO</p>
+									<p class="lead-header text-center" style="font-size: 12px;">登录OPPO帐号可享受更多的服务</p>
+								</div>
+								<div class="modal-body">
+									<form action="#" method="post" class="form-login">
+										
+										<div class="form-group has-success has-feedback">
+											<label>用户名：</label>
+											<input type="text" name="" id="" class="form-control "  placeholder="username"/>
+										</div>
+										<div class="form-group has-success has-feedback">
+											<label>密码：</label>
+											<input type="text" name="" id="" class="form-control "  placeholder="password"/>
+											<p class="help-block pull-right"><a href="#" style="font-size: 10px; color: #009B72;">忘记密码</a></p>
+										</div>
+									</form>	
+									<div class="ccc">
+										<a class="btn btn-lg btn-default center-block">注册OPPO账号</a>
+									</div>
+									<div class="other-login text-center bbb" >
+										<p >其他方式登陆</p>
+										<a href=""><img src="images/other-login.jpg"/></a>
+									</div>
+
+								</div>	
+								<div class="modal-footer">
+									<button class="btn btn-success">登陆</button>
+									<button class="btn btn-danger" data-dismiss='modal'>返回</button>
+								</div>
+							</div>
+						</div>
+					</div>
+		        </li>
+		        <li class="">
+		        	<a href="#" data-toggle="modal" data-target=".reg">注册</a>
+					<div class="modal fade reg"   role="dialog" aria-labelledby="mySmallModalLabel">
+						<div class="modal-dialog modal-sm"  role="document">
+						    <div class="modal-content"> 
+								<div class="modal-header">
+									<span class="close" data-dismiss='modal'>&times;</span>
+									<p class="">
+									<a href="">登录</a>/
+									<a href="">注册</a>
+									</p>
+									<p class="text-center" style="font-weight: bold; font-size: 25px; color: #009B72;">OPPO</p>
+									<p class="lead-header text-center" style="font-size: 12px;">登录OPPO帐号可享受更多的服务</p>
+								</div>
+								<div class="modal-body">
+									<form action="#" method="post" class="form-reg">
+										
+										<div class="form-group has-success has-feedback">
+											<label>用户名：</label>
+											<input type="text" name="" id="reg-username" class="form-control "  placeholder="username"/>
+											<span class="error">用户名至少6位！</span>
+										</div>
+										<div class="form-group has-success has-feedback">
+											<label>密码：</label>
+											<input type="password" name="" id="reg-password" class="form-control "  placeholder="password"/>
+											<span class="error">密码最低8位数</span>
+										</div>
+										<div class="form-group has-success has-feedback">
+											<label>确认密码：</label>
+											<input type="text" name="" id="reg-repassword" class="form-control "  placeholder="repassword"/>
+											<span class="error">两次输入不一致！</span>
+										</div>
+										<div class="form-group has-success has-feedback">
+											<label>手机号码：</label>
+											<input type="text" name="" id="reg-number" class="form-control "  placeholder="tellphone"/>
+										</div>
+										
+									</form>	
+									
+
+								</div>	
+								<div class="modal-footer">
+									<button class="btn btn-success">注册</button>
+									<button class="btn btn-danger" data-dismiss='modal'>返回</button>
+								</div>
+							</div>
+						</div>
+					</div>
+		        </li>
+		        <li><a href="#">Global</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人中心<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">我的动态</a></li>
+		            <li><a href="#">拍客分享</a></li>
+		            <li><a href="#">话题交流</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">退出社区</a></li>
+		          </ul>
+		        </li>
+	      	</ul>
+	    </div>
+	  </div>
+	</nav>
+	
+	<!-- 产品导航 -->
+	<div class="col-md-12">
+		<div class="container">
+			<div class="row">
+				<!-- leftlogo -->
+				<div class="col-md-2">
+					<div class="logo">
+						<img class="img-responsive " src="images/logo.png">
+					</div>
+				</div>
+				<!-- right nav-->
+
+				<div class="col-md-10">
+	    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				      <ul class="nav navbar-nav navbar-right nav-list">
+				        <li><a href="#">首页</a></li>
+				        <li><a href="#">产品</a></li>
+				        <li><a href="#">体验店</a></li>
+				        <li><a href="#">商城</a></li>
+				        <li><a href="#">服务</a></li>    
+				        <li><a href="#">ColorOS</a></li>
+				        <li><a href="#">社区</a></li>
+				        <li><a href="#">云服务</a></li>
+				      </ul>
+				    </div>  
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+	<hr>
+	<!-- 轮播图 -->
+	<div class="img">
+		<ul class="bxslider">
+		    <li><img src="images/a.jpg" /></li>
+		    <li><img src="images/b.jpg" /></li>
+		    <li><img src="images/c.jpg" /></li>
+		    <li><img src="images/d.jpg" /></li>
+		</ul>
+	</div>
+	<!-- 小商品缩影图 -->
+	<div class="row">
+		<div class="col-md-12">
+		 <div class="col-md-4 ">
+		    <a href="#" class="thumbnail">
+		      <img src="images/1.jpg" alt="">
+		    </a>
+		  </div>
+		  <div class="col-md-4 ">
+		    <a href="#" class="thumbnail">
+		      <img src="images/2.jpg" alt="">
+		    </a>
+		  </div>
+		  <div class="col-md-4 ">
+		    <a href="#" class="thumbnail">
+		      <img src="images/3.jpg" alt="">
+		    </a>
+		  </div>
+		</div>
+	</div>
+	<!-- 产品展示 -->
+ 	<h1  idx="cp" class="page-header" style="padding-left: 50px;font-weight: bold ">产品专区</h1>
+
+	 <div id='main-middle'>
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="R11">
+						<a href="#">
+							<img class="R11-img img-responsive" src="images/R11-img.jpg" >
+							<img class="R11-text img-responsive" src="images/R11-text.png" >
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="R9">
+						<a href="#">
+							<img class="R9-img img-responsive" src="images/R9-img.jpg">
+							<img class="R9-text img-responsive" src="images/R9-text.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	 </div>
+	 <!-- 滚动监听 -->
+	<!-- <div class="list-group" id="mynav">
+		<a href="javascript:" class="list-group-item active" id="java">java</a>
+		<a href="javascript:" class="list-group-item" id="php">php</a>
+		<a href="javascript:" class="list-group-item" id="html5">html5</a>
+		<a href="javascript:" class="list-group-item" id="javascript">javascript</a>
+	</div>
+ -->
+	<input type="hidden" id="id" name="id" />
+</body>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		
+		// main-bxslider
+	  $('.bxslider').bxSlider({
+	  	'auto':true,
+	  	'pause':1000,
+	  	'autoHover':true
+	  });
+
+		// JQ放大图片
+		$('.R11').hover(
+			function(){
+			$('.R11-img').css({'transform':'scale(1.1)'})
+		},
+		function(){
+			$('.R11-img').css({'transform':'scale(1)'})
+		});
+		$('.R9').hover(
+			function(){
+			$('.R9-img').css({'transform':'scale(1.1)'})
+		},
+		function(){
+			$('.R9-img').css({'transform':'scale(1)'})
+		});
+		// 滚动监听
+		$(window).scroll(function(){
+		$('.panel').each(function(){
+			st=$(window).scrollTop();
+			pt=$(this).offset().top;
+			
+			if(st>=(pt-200)){
+				idx=$(this).attr('idx')
+				$('#'+idx).addClass('active')
+				$('.list-group-item').not(('#'+idx)).removeClass('active')
+				
+				$('.'+idx).addClass('active')
+				$('.navbar-nav li').not(('.'+idx)).removeClass('active')
+			}
+		});
+	})
+
+		//表单认证
+		$('#reg-username').blur(function(){
+			val=$(this).val().length
+			if(val<6){
+				$(this).data({'s':0})
+				$(this).next().show();
+			}else{
+				$(this).data({'s':1})
+				$(this).next().hide();
+			}
+		});
+		$('#reg-password').blur(function(){
+			val=$(this).val().length
+			
+			if(val<8){
+				$(this).data({'s':0})
+				$(this).next().show();
+			}else{
+				$(this).data({'s':1})
+				$(this).next().hide();
+			}
+		});
+		$('#reg-repassword').blur(function(){
+			val1=$('#reg-password').val();
+			val2=$(this).val()
+			 
+			if(val1 != val2){
+				$(this).data({'s':0})
+				$(this).next().show();
+			}else{
+				$(this).data({'s':1})
+				$(this).next().hide();
+			}
+		});
+		
+		$('.form-reg').submit(function(){
+			$('.atho').blur()
+			tot = 0
+			$('.atho').each(function(){
+				tot+= $(this).data('s')
+			});    //重点
+			
+			if (tot!=3){
+				return false
+			}
+			
+		});
+		
+		//窗口移动事件
+			function drag(obj){
+			obj.on('mousedown',start);
+			function start(event){
+				deltaX = event.clientX-obj.offset().left;
+				deltaY = event.clientY-obj.offset().top;
+				
+				$(document).on('mousemove',move);
+				$(document).on('mouseup',stop);
+				//能阻止默认行为发生
+				//能阻止事件冒泡发生
+				return false;
+			}
+			function move(event){
+				obj.css({
+					'left':(event.clientX - deltaX) + 'px',
+					'top':(event.clientY - deltaY) + 'px'
+				})
+				return false;
+			}
+			function stop(){
+				$(document).off('mousemove',move);
+				$(document).off('mouseup',stop);
+			}
+		}
+	    var	obj = $('#div1');
+		drag(obj);
+		
+	});//dom.ready
+
+	
+
+</script>
+</html>
